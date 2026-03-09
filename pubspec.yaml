@@ -1,0 +1,69 @@
+name: losivio
+description: Losivio
+publish_to:
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  video_player: ^2.9.1
+  line_icons: ^2.0.1
+  http: ^1.2.2
+  http_parser: ^4.0.2
+  shared_preferences: ^2.1.1
+  redux: ^5.0.0
+  flutter_redux: ^0.10.0
+  camera: ^0.11.0+2
+  image: ^4.1.15
+  path_provider: ^2.1.5
+  path: ^1.9.0
+  web_socket_channel: ^3.0.3
+  flutter_webrtc: ^1.2.0
+  uuid: ^4.5.1
+  google_fonts: ^8.0.1
+  #flutter_webrtc: ^0.10.0
+  # Ajouts pour ton projet
+  font_awesome_flutter: ^10.4.0
+  permission_handler: ^12.0.1
+  image_picker: ^1.0.4
+  photo_manager: ^3.0.0
+  cached_network_image: ^3.2.3 # Pour le cache d'images
+  shimmer: ^3.0.0              # Pour le loader Shimmer
+  emoji_picker_flutter: ^4.4.0
+  agora_rtc_engine: ^6.3.2
+  record: ^6.2.0
+  audioplayers: ^6.5.1    # Pour lire le son (dans tes bulles plus tard)
+  file_picker: ^8.0.0 # Vérifie la dernière version
+  intl: ^0.20.2
+  chewie: ^1.8.1
+  image_gallery_saver_plus: ^4.0.1
+  dio: ^5.9.1
+  flutter_riverpod: ^2.5.0
+  flutter_cache_manager: ^3.4.1
+  wakelock_plus: ^1.2.8
+  visibility_detector: ^0.4.0+2
+  cached_video_player_plus: ^4.1.0
+  just_audio: ^0.9.36
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon_screen.png"
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/
